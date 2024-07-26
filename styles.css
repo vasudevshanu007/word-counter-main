@@ -1,0 +1,77 @@
+html,body {
+    min-height: 100%;
+    width: 100%;   
+}
+main {
+    display: block;
+    min-height: 100%;
+    overflow: auto;
+    padding: 1em 0;
+}
+.card-body{
+    background-color: rgb(164, 231, 231);
+
+}
+.space{
+    padding-bottom: 20px;
+}
+.fw-bolder{
+    color:rgb(156, 181, 236);
+    
+}
+.spx{
+    padding:10px;
+}
+.container{
+    margin-top: -55px;
+}
+main * {
+    font-family: 'Mochiy Pop One', sans-serif;
+    
+    
+}
+#project-title {
+    text-shadow: 3px 3px 3px rgb(6, 138, 148);
+    border-color:aqua;
+    padding: 2.5em 1em !important;
+}
+
+.watch {
+	margin-bottom: 20px;;
+	padding: 1rem 2rem;
+    color:rgb(136, 127, 127);
+                        
+}
+.watch .time {
+	font-size: 1.2rem;
+	margin-bottom: 2px;
+    margin-left: 10px;
+
+}
+
+
+.controls {
+    position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+}
+
+.controls button {
+    
+	background-color:rgb(156, 181, 236);
+    color:azure;
+    margin-right:7px;
+    padding:5px;
+
+
+	
+}
+.controls button:hover {
+	opacity: 0.5;
+}
+
+.controls button:active {
+	background-color:aqua;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word-Counter-Timer| VASUDEV</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <style>  
+      @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+      
+    </style>
+</head>
+
+<body>
+    <div class="bg-image" 
+     style="background-image: url('./img/dk.jpg');
+            background-size: cover ; background-position: center center;min-height:100vh;">
+     <main>
+
+        <div class="col-lg-12">
+            <h1 class="fw-bolder text-center" id="project-title"> Word Counter App </h1>
+        </div>
+        <div class="container w-100">
+         <div class="shadow p-3 mb-5 bg-white rounded">
+            <div class="card1 rounded-20 shadow text-dark">
+                <div class="card-body">
+                    <div class="col-lg-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 col-md-10 col-sm-12 col-sm 12">
+                                <!-- Count Elements -->
+                               <div class="space">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-3">
+                                        <large class="fw-bolder"><span class="text-muted">Total Characters:</span> <span id="total-characters">0</span></large>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-3">
+                                        <large class="fw-bolder"><span class="text-muted">Total Characters(no-space):</span> <span id="total-characters-ns">0</span></large>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-3">
+                                        <large class="fw-bolder"><span class="text-muted">Total Words:</span> <span id="total-words">0</span></large>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-3">
+                                        <large class="fw-bolder"><span class="text-muted">Total Paragraphs:</span> <span id="total-paragraphs">0</span></large>
+                                    </div>
+                                </div>
+                               </div> 
+
+                            <div class="watch">
+                                <div class="time">
+                                    00:00:00
+                                </div>
+                                <div class="controls">
+                                    <button id="start">Start</button>
+                                    <button id="stop">Stop</button>
+                                    <button id="reset">Reset</button>
+                                </div>
+                            </div>
+                            <script src="./js/main.js"></script>
+
+
+                                 <!-- End of Count Elements -->
+                                <div class="spx">
+                                <div class="card rounded-10 shadow">
+                        
+                                    <div class="card-body">
+
+                                        <!-- Text Field Element -->
+                                        <textarea spellcheck="false" id="text-field" rows="16" autofocus class="form-control form-control-sm rounded-0" placeholder="Press Start to start writing...." disabled></textarea>
+                                        <!-- End of Text Field Element -->
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+   </div> 
+</body>
+
+</html>
